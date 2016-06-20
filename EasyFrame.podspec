@@ -90,6 +90,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
   s.source_files = "EasyFrame/EasyFrame/*","EasyFrame/EasyFrame/**/*.{h,m}*"
+  s.prefix_header_file = "EasyFrame/EasyFrame/EF_PrefixHeader.pch"
   # s.source_files  = "Classes", "Classes/**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
