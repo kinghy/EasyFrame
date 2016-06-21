@@ -8,10 +8,14 @@
 
 #ifndef EasyFrame_EFHeader_h
 #define EasyFrame_EFHeader_h
-#import "EFMacro.h"
-#import "EFCommonFunction.h"
+
 #import "AFNetworking.h"
 #import "CocoaLumberjack.h"
+
+#import "EFCommon.h"
+#import "EFMacro.h"
+#import "EFCommonFunction.h"
+
 #import "Singleton.h"
 #import "EFEntity.h"
 #import "EFButton.h"
